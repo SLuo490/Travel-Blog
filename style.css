@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+/* heading icons */
+.heading #left {
+  align-items: flex-start;
+}
+
+.heading #right {
+  float: right;
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+/* containers */
+.container h1 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.container p {
+  margin-bottom: 2rem;
+}
+
+.content {
+  border: 3px solid black;
+  background-color: pink;
+  margin-right: 3rem;
+}
+
+.content h3 {
+  color: white;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+/* Section 1 and 2 */
+.section-1,
+.section-2 {
+  display: flex;
+  align-items: center;
+}
+
+.section-1 img {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  border: 3px solid purple;
+}
+
+.section-1 figcaption {
+  margin-left: 10rem;
+}
+
+.img-caption {
+  color: white;
+}
+
+.section-1 p {
+  margin-left: 9rem;
+  margin-right: 9rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.section-2 p {
+  margin-left: 10rem;
+  margin-right: 9rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.section-2 img {
+  margin-right: 10rem;
+  margin-top: 2rem;
+  border: 3px solid purple;
+}
+
+.section-2 figcaption {
+  margin-bottom: 3rem;
+}
