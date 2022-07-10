@@ -31,12 +31,15 @@ body {
 
 .container p {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .content {
   border: 3px solid black;
   background-color: pink;
   margin-right: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
 }
 
 .content h3 {
@@ -151,4 +154,51 @@ ul {
 
 .cost .pink {
   background-color: pink;
+}
+
+/* Contact */
+.contact {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.contact h3 {
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info div {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+/* Webpages */
+
+.endNav {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.endNav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.endNav a {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+/* Footer */
+footer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
 }
