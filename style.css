@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -90,4 +90,65 @@ body {
 
 .section-2 figcaption {
   margin-bottom: 3rem;
+}
+
+/* Upcoming event section */
+ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.events {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.events h3 {
+  margin-bottom: 1rem;
+}
+
+.events li {
+  margin-left: 1.5rem;
+}
+
+/* News feed */
+.newsfeed {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.newsfeed h3 {
+  margin-bottom: 1rem;
+}
+
+.newsfeed dt {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.newsfeed dd {
+  margin-bottom: 5px;
+  margin-left: 2rem;
+}
+
+/* Cost */
+.cost {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.cost h3 {
+  margin-bottom: 1rem;
+}
+
+.cost .green {
+  background-color: lightgreen;
+}
+
+.cost .pink {
+  background-color: pink;
 }
