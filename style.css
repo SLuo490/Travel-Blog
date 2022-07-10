@@ -177,7 +177,64 @@ ul {
   margin-left: 2rem;
 }
 
-/* Webpages */
+/* Hiking HTML */
+.hiking-title {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hiking-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hiking-section img {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 2px solid black;
+  width: 600px;
+  height: 400px;
+}
+
+.hiking-section .info {
+  border: 6px solid #4f81bd;
+  background-color: #eeece1;
+  width: 600px;
+  height: 400px;
+}
+
+.info p {
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.86rem;
+}
+
+/* Hiking Info Continue */
+
+.info-continue {
+  margin-top: 2.5rem;
+}
+
+.info-continue p {
+  text-align: left;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.info-continue > p:last-child {
+  margin-bottom: 3rem;
+}
+
+.lineBr {
+  margin-bottom: 5rem;
+}
+
+/* End Nav */
 
 .endNav {
   margin-top: 1rem;
