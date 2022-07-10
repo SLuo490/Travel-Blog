@@ -177,20 +177,23 @@ ul {
   margin-left: 2rem;
 }
 
-/* Hiking HTML */
-.hiking-title {
+/* Hiking and Northern Light Page */
+.hiking-title,
+.nl-title {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.hiking-section {
+.hiking-section,
+.nl-section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hiking-section img {
+.hiking-section img,
+.nl-section img {
   margin-left: 3px;
   margin-right: 3px;
   margin-top: 3rem;
@@ -200,7 +203,8 @@ ul {
   height: 400px;
 }
 
-.hiking-section .info {
+.hiking-section .info,
+.nl-section .info {
   border: 6px solid #4f81bd;
   background-color: #eeece1;
   width: 600px;
@@ -231,6 +235,10 @@ ul {
 }
 
 .lineBr {
+  margin-bottom: 3rem;
+}
+
+.hiking-lineBr {
   margin-bottom: 5rem;
 }
 
@@ -254,8 +262,5 @@ ul {
 
 /* Footer */
 footer {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
   text-align: center;
 }
